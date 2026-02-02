@@ -1,3 +1,26 @@
+var stickers = {
+    sad:"so sad",
+    bonzi:"bonzibuddy",
+    host:"host is a bathbomb",
+    spook:"ew im spooky",
+    forehead:"you have a big forehead",
+    ban:"i will ban you so hard right now",
+    flatearth:"this is true and you cant change my opinion loser",
+    template:"insert the sticker here",
+    swag:"look at my swag",
+    topjej:"toppest jej",
+    cyan:"cyan is yellow",
+    flip:"fuck you",
+    sans:"fuck you",
+    sex:"bonzi sex",
+    high:"me high eh - f",
+    no:"fuck no",
+    bye:"bye im fucking leaving",
+    kiddie:"kiddie",
+    big_bonzi:"u picked the wrong house fool",
+    lol:"laugh out loud",
+    brazzers:"trans bonzi",
+}
 var settingsSantize = {
     allowedTags: [ 'h3', 'h4', 'h5', 'h6', 'blockquote', 'p', 'a', 'ul', 'ol',
     'nl', 'li', 'b', 'i', 'strong', 'em', 'strike', 'code', 'hr', 'br', 'div',
@@ -221,11 +244,25 @@ let userCommands = {
             vid: vid
         });
     },
+    rain: function (text) {
+        this.room.emit("rain", {
+            guid: this.guid,
+        });
+    },
     "backflip": function(swag) {
         this.room.emit("backflip", {
             guid: this.guid,
             swag: swag == "swag"
         });
+    },
+    sticker: function (sticker) {
+        if (Object.keys(stickers).includes(sticker)) {
+            this.room.emit("talk", {
+                text: `<img src="./img/stickers/${sticker}.png" width=170>`,
+                say: stickers[sticker],
+                guid: this.guid,
+            });
+        }
     },
     "linux": "passthrough",
     "pawn": "passthrough",

@@ -2107,3 +2107,16 @@
 {"error":{"errno":-5,"code":"EIO","syscall":"read"},"level":"error","message":"uncaughtException: read EIO\nError: read EIO","stack":"Error: read EIO","exception":true,"date":"Mon Nov 06 2023 18:01:19 GMT+0000 (Coordinated Universal Time)","process":{"pid":15,"uid":1000,"gid":1000,"cwd":"/home/runner/BonziWORLD-Classic","execPath":"/nix/store/ra8r42571xvv1m85wanh1ll9mxmp0mwl-nodejs-16.13.2/bin/node","version":"v16.13.2","argv":["/nix/store/ra8r42571xvv1m85wanh1ll9mxmp0mwl-nodejs-16.13.2/bin/node","/tmp/prybar-nodejs-241676653.js"],"memoryUsage":{"rss":67026944,"heapTotal":14610432,"heapUsed":12695320,"external":1526409,"arrayBuffers":106706}},"os":{"loadavg":[22.52,12.83,8.63],"uptime":3492.13},"trace":[]}
 {"guid":"c1dc5b8a62eb2fc8","ip":"::ffff:172.31.196.1","level":"info","message":"connect"}
 {"guid":"c1dc5b8a62eb2fc8","ip":"::ffff:172.31.196.1","level":"info","message":"disconnect"}
+{"guid":"34a68e9f8fe2be45","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"34a68e9f8fe2be45","ip":"::ffff:172.31.86.130","level":"info","message":"disconnect"}
+{"guid":"28311c2c2ad4e1ba","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"c6786c1128f09f63","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"04275a5b93968b6b","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"c0b226813f73dfda","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"c0b226813f73dfda","ip":"::ffff:172.31.86.130","level":"info","message":"disconnect"}
+{"guid":"c5d65ff3959c7a3d","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"c5d65ff3959c7a3d","ip":"::ffff:172.31.86.130","level":"info","message":"disconnect"}
+{"guid":"cf25f96d210e1af1","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"cf25f96d210e1af1","ip":"::ffff:172.31.86.130","level":"info","message":"disconnect"}
+{"guid":"c28588c02fb14106","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
+{"guid":"3f41b12141659407","ip":"::ffff:172.31.86.130","level":"info","message":"connect"}
