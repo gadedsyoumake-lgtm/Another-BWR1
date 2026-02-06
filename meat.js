@@ -336,6 +336,18 @@ let userCommands = {
             target: sanitize(Utils.argsString(arguments))
         });
     },
+    "copycat": function() {
+        this.room.emit("copycat", {
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments))
+        });
+    },
+    "21": function() {
+        this.room.emit("21", {
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments))
+        });
+    },
     "triggered": "passthrough",
     "vaporwave": function() {
         this.socket.emit("vaporwave");
